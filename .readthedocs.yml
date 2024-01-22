@@ -1,3 +1,6 @@
-version: 2
-sphinx:
-configuration: blob/main/main.py
+yaml
+ version: 2
+
+# Build documentation in the docs/ directory with Sphinx
+ sphinx:
+ configuration: docs/source/conf.py
