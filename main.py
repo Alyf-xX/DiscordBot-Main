@@ -97,4 +97,4 @@ async def on_command_error(ctx, error):
 
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-    bot.run(TOKEN)
+bot.run(TOKEN)
